@@ -90,7 +90,7 @@ WildFC is an evolving in-the-wild dataset collected through an automated fact-ch
 
 Available pre-trained models of paper can be found here: [**RINE**](https://itigr-my.sharepoint.com/:u:/g/personal/apantsios_iti_gr/IQC79a-qFyAWQrjzZlNJirQ-Aetycm8v18GctRpEYaphT-U?e=5aqSi1), [**SPAI**](https://itigr-my.sharepoint.com/:u:/g/personal/apantsios_iti_gr/IQCkyy2RhxQBRZm_zwcDgeCvARhmym55JQ157RaxgnRIf1s?e=mbE0ve)
 
-Guidelines for training and evaluation of our framework on RINE and SPAI can be found [here](detectors/rine/readme.md) and [here](detectors/spai/readme.md)
+Guidelines for training and evaluation of our framework on RINE and SPAI can be found [here](detectors/rine/README.md) and [here](detectors/spai/README.md)
 
 ---
 
