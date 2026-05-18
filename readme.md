@@ -1,0 +1,125 @@
+<div align="center">
+ <br>
+
+# Automated In-the-Wild Data Collection for Continual AI-Generated Image Detection
+
+**Thanasis Pantsios, Dimitrios Karageorgiou, Christos Koutlis, George Karantaidis, Olga Papadopoulou, Symeon Papadopoulos**
+
+CERTH-ITI, Thessaloniki, Greece
+
+Presented at **MAD '26 – The 5th ACM International Workshop on Multimedia AI against Disinformation**
+
+<p align="center">
+  <a href='https://mever-team.github.io/WildFC/'>
+    <img src='https://img.shields.io/badge/Project-Page-pink?style=flat&logo=Google%20chrome&logoColor=pink'>
+  </a>
+  <a href='https://arxiv.org/html/2605.02567v1'>
+    <img src='https://img.shields.io/badge/Arxiv-2605.02567-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
+  </a>
+  <a href='https://arxiv.org/pdf/2605.02567'>
+    <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
+  </a>
+  <a href='https://huggingface.co/datasets/pthan12/WildFC'>
+    <img src='https://img.shields.io/badge/HuggingFace-WildFC-orange?style=flat&logo=huggingface&logoColor=orange'>
+  </a>
+  <a href='https://huggingface.co/datasets/pthan12/AIGenImages2026'>
+    <img src='https://img.shields.io/badge/HuggingFace-AIGenImages2026-blue?style=flat&logo=huggingface&logoColor=blue'>
+  </a>
+</p>
+
+</div>
+
+---
+
+## 📄 Overview
+<p align="center">
+  <img src="assets/framework_overview.png" width="100%">
+</p>
+
+This repository contains the official implementation and datasets for:
+
+> **Automated In-the-Wild Data Collection for Continual AI-Generated Image Detection**
+
+The proposed framework introduces a continual adaptive pipeline for robust AI-generated image detection under evolving real-world conditions.
+
+
+---
+
+# Available Datasets
+
+## AIGenImages2026
+
+<p align="center">
+  <img src="assets/aigen_examples.png" width="90%">
+</p>
+
+AIGenImages2026 is a dataset of recent text-to-image generative models. You can find more details in the paper.
+
+📥 Dataset Download: [Hugging Face Repository](https://huggingface.co/datasets/pthan12/AIGenImages2026)
+
+### Dataset Statistics
+
+- **5,439** generated images
+- **19** recent generative models
+- Chronologically organized generators
+
+<p align="center">
+  <img src="assets/aigen_table.png" width="90%">
+</p>
+---
+
+## WildFC
+<p align="center">
+  <img src="assets/wildfc_examples.png" width="90%">
+</p>
+WildFC is an evolving in-the-wild dataset collected through an automated fact-check retrieval pipeline.
+
+🔒 Access Request: [Hugging Face Repository](https://huggingface.co/datasets/pthan12/WildFC)
+
+### Dataset Statistics
+
+- **2,884** AI-generated images
+- **2,298** segmented image samples
+- Real-world fact-checked AI-generated content
+
+---
+
+# Reproduced Results
+
+Available pretrained models of paper can be found here: [**RINE**](https://itigr-my.sharepoint.com/:u:/g/personal/apantsios_iti_gr/IQC79a-qFyAWQrjzZlNJirQ-Aetycm8v18GctRpEYaphT-U?e=5aqSi1), [**SPAI**](https://itigr-my.sharepoint.com/:u:/g/personal/apantsios_iti_gr/IQCkyy2RhxQBRZm_zwcDgeCvARhmym55JQ157RaxgnRIf1s?e=mbE0ve)
+
+Guidelines for training and evaluation of RINE and SPAI can be found [here](detectors/rine/readme.md) and [here](detectors/spai/readme.md)
+
+
+---
+
+# Citation
+
+If you use our datasets or framework in your research, please cite the following paper:
+
+```bibtex
+@inproceedings{pantsios2026wildfc,
+  title={Automated In-the-Wild Data Collection for Continual AI Generated Image Detection},
+  author={Pantsios, Thanasis and Karageorgiou, Dimitrios and Koutlis, Christos and Karantaidis, George and Papadopoulou, Olga and Papadopoulos, Symeon},
+  booktitle={Proceedings of the 5th ACM International Workshop on Multimedia AI against Disinformation (MAD '26')},
+  year={2026}
+}
+```
+
+---
+
+# Acknowledgments
+
+This work received funding from:
+
+- AI-CODE (GA No. 101135437)
+- ELIAS (GA No. 101120237)
+
+---
+
+# Contact
+
+If there are any questions, please feel free to contact:
+
+**Thanasis Pantsios**  
+📧 apantsios@iti.gr
