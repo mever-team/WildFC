@@ -34,7 +34,7 @@ Presented at **MAD '26 – The 5th ACM International Workshop on Multimedia AI a
 ## 📄 Overview
 This repository contains the official implementation and datasets for:
 
-> **Automated In-the-Wild Data Collection for Continual AI-Generated Image Detection**
+> [**Automated In-the-Wild Data Collection for Continual AI-Generated Image Detection**](https://arxiv.org/html/2605.02567v1)
 
 The proposed framework introduces a continual adaptive pipeline for robust AI-generated image detection under evolving real-world conditions.
 
