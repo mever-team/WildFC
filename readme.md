@@ -16,7 +16,7 @@ Presented at **MAD '26 – The 5th ACM International Workshop on Multimedia AI a
   <a href='https://arxiv.org/html/2605.02567v1'>
     <img src='https://img.shields.io/badge/Arxiv-2605.02567-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
-  <a href='https://arxiv.org/pdf/2605.02567'>
+  <a href='https://dl.acm.org/doi/10.1145/3810988.3812662'>
     <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'>
   </a>
   <a href='https://huggingface.co/datasets/pthan12/WildFC'>
