@@ -92,6 +92,8 @@ Available pre-trained models of paper can be found here: [**RINE**](https://itig
 
 Guidelines for training and evaluation of our framework on RINE and SPAI can be found [here](detectors/rine/README.md) and [here](detectors/spai/README.md)
 
+Real/fake training pairs (`wildfc_pairs.csv`, `aigenimages2026_pairs.csv`) and details of the evaluation sets ([`evaluation/`](https://huggingface.co/datasets/pthan12/WildFC/tree/main/evaluation)) are available in the [WildFC Hugging Face repository](https://huggingface.co/datasets/pthan12/WildFC).
+
 ---
 
 # Citation
